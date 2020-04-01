@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Dynamic Beadworks</title>
+<style>
+
+/* black background for DCB logo and title area */
+.header {
+	background-color: black;
+    height: 150px;
+    width: 100%;
+        }
+
+#dcblogo {
+	height: 150px;
+    width: 200px;
+   	position: relative;
+   	float: left;
+    }
+
+.dynamicbeadworks {
+	color: white;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 50px;
+    }
+
+/* discount code graphics and text */
+.discountcode {
+	background: linear-gradient(35deg, #0B0B61, #2E2EFE);
+    height: 35px;
+    overflow: hidden;
+    }
+
+.discounttext {
+	color: white;
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+}
+
+/* social media info */
+#socialmedia {
+	float: right;
+    overflow: hidden;
+    }
+
+/* navigation bar styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(35deg, #0B0B61, #2E2EFE);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 20px 5px 5px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #819FF7;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-family: helvetica;
+}
+
+.dropdown-content a:hover {background-color: #848484;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+
+<div class="discountcode">
+<h2 class="discounttext">Use discount code: #ABC123 for 25% off of your next purchase!</h2>
+</div>
+
+<article class="header">
+<img src="https://i.imgur.com/k9HFf8r.png" id="dcblogo">
+<h1 class="dynamicbeadworks">DYNAMIC BEADWORKS</h1>
+</article>
+
+<!-- navigation bar -->
+<ul>
+  <li><a href="#home">HOME</a></li>
+  <li><a href="#aboutus">ABOUT US</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">SHOP</a>
+    <div class="dropdown-content">
+      <a href="#">Marvel vs. Capcom</a>
+      <a href="#">Street Fighter V</a>
+      <a href="#">Tekken</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">AFFILIATES</a>
+    <div class="dropdown-content">
+      <a href="#" target="_blank">Dynamik Focus</a>
+      <a href="#" target="_blank">Link 2</a>
+      <a href="#" target="_blank">Link 3</a>
+    </div>
+  </li>
+<!-- social media icons -->
+    <section id="socialmedia">
+    <li><a href="http://www.twitter.com/dynamicbeadwork" target="_blank"><img src="https://i.imgur.com/987bvjP.png" alt="twitter logo"></a></li>
+  <li><a href="http://www.instagram.com/dynamicbeadworks" target="_blank"><img src="https://i.imgur.com/S3EgsjV.png" alt="instagram logo"></a></li>
+  <li><a href="http://www.etsy.com/shop/DCBPerlerSprites" target="_blank"><img src="https://i.imgur.com/6QQjQmq.png" alt="etsy logo"></a></li>
+  </section>
+</ul>
+
+<!-- body of page, eventually image gallery will go here -->
+<h1 style="text-align:center">Image Gallery (eventually)</h1>
+
+</body>
+</html>

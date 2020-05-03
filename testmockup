@@ -1,131 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<script src="https://kit.fontawesome.com/51eb9240a1.js" crossorigin="anonymous"></script>
+<html lang="en-US">
+	<head>
+	<script src="https://kit.fontawesome.com/51eb9240a1.js" crossorigin="anonymous"></script>
 
 	<title>Dynamic Beadworks</title>
-	<meta name="description" content="DCB Mock Website" />
-	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		
-	<style type="text/css">
+	<meta name="description" content="Dynamic Beadworks is your one-stop shop for perler art of all your favorite video game, movie and cartoon characters">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	
+	</head>
 
-* {
-	margin: 0 auto;
-    padding: 0 auto;
-    }
+	<body>
 
-body {
-	font-family: helvetica;
-    }
-    
-    .logobackground {
-    	height: 150px;
-        background-color: white;
-        background-image: url("https://i.imgur.com/k9HFf8r.png"), url("https://i.imgur.com/9Uj40cy.png"), url("https://i.imgur.com/OqngwA3.jpg");
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: center left, center center;
-        background-size: contain, 700px, cover;
-        }
-                     
-            /* navigation bar styles */
-            
-        
-            
-		ul {
-  			list-style-type: none;
-  			margin: 0;
-            padding: 0;
-            overflow: hidden;
-  			background: #0B4C5F;
-                   }
-                    
-        li {
-        	float: left;
-            }
-         
-		li a, .dropbtn {
-  			display: inline-block;
-            color: white;
-            padding: 10px 20px 10px 5px;
-  			font-family: helvetica;
-  			font-size: 20px;
-  			text-align: center;
-  			font-weight: bold;
-  			text-decoration: none;
-		}
+	<header>
+		<nav>
+			<ul class="nav-ul">
+	        <li><img src="images/DCBLogo.png" alt="A picture of the DCB logo" class="logo-img"></li>
+	    		<li><a href="index.html">HOME</a></li>
+	  			<li><a href="#news">ABOUT US</a></li>
+	  			<li class="dropdown">
+	    			<a href="javascript:void(0)" class="dropbtn">SHOP</a>
+	    			<div class="dropdown-content">
+								<a href="#">BlazBlue</a>
+								<a href="#">Pokemon</a>
+								<a href="#">Pop Culture</a>
+								<a href="#">Samurai Shodown</a>
+								<a href="#">Street Fighter</a>
+								<a href="#">Super Smash Brothers</a>
+	      				<a href="#">Tekken</a>
+	      		</div></li>
+	    		<li class="dropdown">
+	  				<a href="javascript:void(0)" class="dropbtn">AFFILIATES</a>
+	    			<div class="dropdown-content">
+	    					<a href="#">Link 1</a>
+	        			<a href="#">Link 2</a>
+	        			<a href="#">Link 3</a>
+	        	</div></li>
+	            	<li style="float:right">
+									<form>
+										<input type="search" name="q" placeholder="Search perlers here" required id="search-bar">
+	    							<input type="submit" value="SUBMIT" id="submit-button">
+									</form>
+								</li>
+								<li class="header-ad"><pre style="font-weight:normal;">
+Custom perler art of your favorite characters
+from movies,video games, cartoons and more!</pre></li>
+		  		</ul>
+		</nav>
 
-		li a:hover, .dropdown:hover .dropbtn {
-  			background-color: #819FF7;
-		}
+	<section id="sales-bar" class="sales-bar">
+	<p>USE COUPON CODE: ABC123 TO SAVE 25% OFF YOUR FIRST ORDER OF $10 OR MORE</p>
+	</section>
 
-		li.dropdown {
-  			display: inline-block;
-		}
+	</header>
 
-		.dropdown-content {
-  			display: none;
-  			position: absolute;
-  			background-color: #f9f9f9;
-  			min-width: 160px;
-  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  			z-index: 1;
-		}
+	<!-- Need to figure out main content for home page: image gallery, etc -->
+	<main>
+			<h1>Placeholder text for future content (hero image, image gallery, etc)</h1>
+	</main>
+	<!-- additional main content needed above -->
 
-		.dropdown-content a {
-  			color: black;
-  			padding: 12px 16px;
-  			text-decoration: none;
-  			display: block;
-  			text-align: left;
-  			font-size: 14px;
-  			font-family: helvetica;
-		}
-
-		.dropdown-content a:hover {background-color: #848484;}
-
-		.dropdown:hover .dropdown-content {
-  			display: block;
-            }
-            
-    </style>
-</head>
-<body>
-
-<header>
-
-<div class="logobackground"></div>
-
-<nav>
-<ul class="thin-black-border">
-  <li><a href="#">HOME</a></li>
-  <li><a href="#">ABOUT US</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">SHOP</a>
-    <div class="dropdown-content">
-      <a href="#">Marvel vs. Capcom</a>
-      <a href="#">Street Fighter V</a>
-      <a href="#">Tekken</a>
-    </div>
-  </li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">AFFILIATES</a>
-    <div class="dropdown-content">
-      <a href="#" target="_blank">Dynamik Focus</a>
-      <a href="#" target="_blank">Link 2</a>
-      <a href="#" target="_blank">Link 3</a>
-    </div>
-  </li>
-	<li><a href="http://www.etsy.com/shop/DCBPerlerSprites" target="_blank" class="fab fa-etsy" style="color:#FF8000;"></a></li>
-	<li><a href="http://www.twitter.com/dynamicbeadwork" target="_blank" class="fab fa-twitter-square" style="color:#2E9AFE;"></a></li>
-	<li><a href="http://www.instagram.com/dynamicbeadworks" target="_blank" class="fab fa-instagram-square" style="color:#F781D8;"></a></li>
-</span>
-</ul>
-</nav>
-</header>
-
-<main></main>
-<footer></footer>
-
+	<footer>
+		<article id="footer">
+	<!-- NEW CODE ---------------------------------------------------------------------------->
+			<h2>Follow us on social media for new product updates, upcoming events and more!</h2>
+	<!---------------------------------------------------------------------------------------->
+			<ul id="footer-social-media">
+	    	<li><a href="http://www.etsy.com/shop/DCBPerlerSprites" target="_blank" class="fab fa-etsy fa-2x" rel="noreferrer noopener" style="color:#FF8000;"></a></li>
+				<li><a href="http://www.twitter.com/dynamicbeadwork" target="_blank" class="fab fa-twitter-square fa-2x" rel="noreferrer noopener" style="color:#2E9AFE;"></a></li>
+				<li><a href="http://www.instagram.com/dynamicbeadworks" target="_blank" class="fab fa-instagram-square fa-2x" rel="noreferrer noopener" style="color:#F781D8;"></a></li>
+			</ul>
+	  </article>
+	</footer>
 </body>
 </html>
